@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login and Register with Bootstrap</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="index.css">
+  <style type="text/css">
+    div{
+        font-family:'Yu Gothic Medium', YuGothic, '游ゴシック', 'Yu Gothic', sans-serif;
+    }
+    a{
+        font-family: 'Yu Gothic Medium', YuGothic, '游ゴシック', 'Yu Gothic', sans-serif;
+    }
+    </style>
+    
+</head>
+
+<body>
+  <div class="container" style="width: 50%; margin: 0 auto; margin-top:100px; text-align: center;">
+    <img src="title.png" style="width: 50%; height: 50; margin: 0 auto;">
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#login">登录</a></li>
+      <li><a data-toggle="tab" href="#register">注册</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="login" class="tab-pane fade in active">
+        <form class="form-horizontal" action="">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="email">用户名:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="手机|邮箱">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">密码:</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="pwd" placeholder="请输入6-20位字符">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="checkbox">
+                <label><input type="checkbox"> Remember me</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="homeFacility-link" style="padding-top: 0;width: 50%; margin: 0 auto;"><a style="width: 50%; margin: 0 auto;" href="index.html" class="l-btn">提  交</a></div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div id="register" class="tab-pane fade">
+        <form class="form-horizontal" action="">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="email">用户名:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="手机|邮箱">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">密码:</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="pwd" placeholder="请输入6-20位字符">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">确认密码:</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="pwd" placeholder="请输入6-20位字符">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="homeFacility-link" style="padding-top: 0;width: 50%; margin: 0 auto;"><a style="width: 50%; margin: 0 auto;" href="index.html" class="l-btn">注  册</a></div>
+            </div>
+        </div>
+        </form>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
+
